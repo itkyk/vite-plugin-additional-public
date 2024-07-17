@@ -1,6 +1,6 @@
 {
   "name": "@itkyk/vite-plugin-additional-public",
-  "version": "1.0.0",
+  "version": "0.0.1-beta.1",
   "description": "This is a plugin that registers additional public directories only when Vite is in server mode.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
