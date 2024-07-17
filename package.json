@@ -1,0 +1,27 @@
+{
+  "name": "@itkyk/vite-plugin-additional-public",
+  "version": "1.0.0",
+  "description": "This is a plugin that registers additional public directories only when Vite is in server mode.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/glob": "^8.1.0",
+    "@types/mime-types": "^2.1.4",
+    "biome": "^0.3.3",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "mime-types": "^2.1.35"
+  }
+}
